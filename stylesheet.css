@@ -1,0 +1,246 @@
+@font-face {
+	font-family: Parry-Normal; src: url('fonts/parry-Normal.ttf');
+	font-family: Parry-NormalItalic; src: url('fonts/parry-NormalItalic.ttf');
+	font-family: ParryLF-Normal; src: url('fonts/parryLF-Normal.ttf');
+	font-family: ParryLF-NormalItalic; src: url('fonts/parryLF-NormalItalic.ttf');
+}
+
+body {
+	font-family: parry-Normal;
+	margin:20px 0px; padding:0px;
+	text-align:center;
+}
+
+#ultra-container {
+	width: 389px;
+	margin: 0px auto;
+}
+
+#ultra-container .scroll {
+	height: 520px;
+	width: 412px;
+	overflow: auto;
+	background: url('img/SIDE-BAR.png');
+	background-repeat: repeat-y;
+}
+
+#ultra-container #todo-list-container .scroll {
+	height: 352px;
+	width: 412px;
+	overflow: auto;
+	background: url('img/SIDE-BAR.png');
+	background-repeat: repeat-y;
+}
+
+#login-view {
+	position: absolute;
+	height: 165px;
+	width: 434px;
+	background: url('img/LOGIN-BKG.png');
+}
+
+#login-view #login-form {
+	width: 434px;
+	margin-top: 70px;
+}
+
+#login-view #login-form #login-token-input {
+	width: 350px;
+	margin-left: 30px;
+}
+
+#login-view #login-form #login-token-submit {
+	height: 44px;
+	width: 134px;
+	background: transparent url('img/LOGIN.png');
+	border: none;
+	margin-left: 145px;
+	margin-top: 12px;
+}
+
+#login-view #login-form #login-token-submit:hover {
+	background: url('img/LOGIN.png');
+}
+
+.todo-list, .estimations {
+	height: 55px;
+	width: 387px;
+	text-align: left;
+	background: url('img/ESTIMATIONS-BAR.png');
+}
+
+.estimations .project-name {
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+	white-space: nowrap;
+	width: 240px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.todo-list .todo-list-name {
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	white-space: nowrap;
+	width: 260px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#estimations-container #top {
+	height: 31px;
+	width: 387px;
+	background: url('img/ESTIMATIONS-BKG-TOP.png');
+}
+
+#estimations-header #back-btn {
+	margin-left: 10px;
+	margin-top: 3px;
+	float: left;
+	height: 28px;
+	width: 28px;
+	background: url('img/ESTIMATIONS-BACK.png');
+}
+
+#estimations-header #project-name {
+	float: left;
+	margin-top: 8px;
+	margin-left: 10px;
+	white-space: nowrap;
+	width: 260px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#todo-list-container .create-todo {
+	height: 36px;
+	width: 36px;
+	background: transparent url('img/ESTIMATIONS-ADD.png');
+	border: none;
+	float: right;
+	margin-right: 20px;
+	margin-top: 12px;
+}
+
+#todo-list-container #bottom, #estimations-container #bottom {
+	height: 60px;
+	width: 387px;
+	background: transparent url('img/ESTIMATIONS-BKG-BTM.png');
+	border: none;
+}
+
+#todo-list-container #top {
+	height: 199px;
+	width: 387px;
+	background: url('img/ESTIMATIONS-INFO-TOP.png');
+}
+
+#people-container #top {
+	height: 54px;
+	width: 389px;
+	background: url('img/LEADERBOARD-BAR-TOP.png');
+}
+
+#people-container .person-container {
+	padding-top: 20px;
+	margin-bottom: -20px;
+	height: 56px;
+	width: 389px;
+	background: url('img/LEADERBOARD-BAR.png');
+}
+
+#people-container #bottom {
+	height: 36px;
+	width: 389px;
+	background: url('img/LEADERBOARD-BAR-BTM.png');
+}
+
+.info-btn {
+	width: 37px;
+	height: 36px;
+	float: left;
+	background: transparent url('img/ESTIMATIONS-INFO.png');
+	border: none;
+	margin-top: 12px;
+}
+
+.info-btn:hover {
+	background: url('img/ESTIMATIONS-EDIT.png');
+}
+
+.info-btn-active {
+	width: 37px;
+	height: 36px;
+	float: left;
+	background: url('img/LOADING_WHEEL.gif');
+	border: none;
+	margin-top: 12px;
+}
+
+
+
+.estimations-btn {
+	width: 114px;
+	height: 46px;
+	background: transparent url('img/ESTIMATIONS.png');
+	border: none;
+	margin-bottom: 30px;
+}
+
+/*
+ * buttons
+ */
+.estimations-btn:hover {
+	background: url('img/ESTIMATIONS-MD.png');
+}
+
+.estimations-btn-active {
+	background: url('img/ESTIMATIONS-MD.png');
+}
+
+.leaderboard-btn {
+	width: 114px;
+	height: 46px;
+	background: transparent url('img/LEADERBOARD.png');
+	border: none;
+}
+
+.leaderboard-btn:hover {
+	background: url('img/LEADERBOARD-MD.png');
+}
+
+.leaderboard-btn-active {
+	background: url('img/LEADERBOARD-MD.png');
+}
+
+.profile-btn {
+	width: 114px;
+	height: 46px;
+	background: transparent url('img/PROFILE.png');
+	border: none;
+}
+
+.profile-btn:hover {
+	background: url('img/PROFILE-MD.png');
+}
+
+.profile-btn-active {
+	background: url('img/PROFILE-MD.png');
+}
+
+.trophy-btn {
+	width: 34px;
+	height: 46px;
+	background: transparent url('img/trophy_button.png');
+	border: none;
+}
+
+.trophy-btn:hover {
+	background: url('img/trophy_button_md.png');
+}
+
+.trophy-btn-active {
+	background: url('img/trophy_button_md.png');
+}
